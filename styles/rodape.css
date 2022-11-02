@@ -1,0 +1,9 @@
+.rodape{
+   text-align: center;
+   padding: 1em;
+}
+
+.rodape a{
+   text-decoration: none;
+   color: var(--text-color);
+}

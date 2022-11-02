@@ -1,0 +1,41 @@
+.swiper{
+   width: 60vw;
+   height: 600px;
+   margin: 1em 0;
+   border-radius: 10px;
+}
+
+.swiper-slide{
+   background: url("../img/aluraBook.png") no-repeat;
+   background-size: cover;
+}
+
+.slide2 {
+   background: url("../img/fruta&fruto.jpg") no-repeat;
+   background-size: cover;
+}
+
+.slide3 {
+   background: url("../img/selfCare.png") no-repeat;
+   background-size: cover;
+}
+
+
+
+@media screen and (max-width:1200px) {
+   .swiper-slide {
+      background: url("../img/AluraBookMobile.png") no-repeat;
+      background-size: cover;
+   }
+
+   .slide2 {
+      background: url("../img/fruta&frutoMobile.png") no-repeat;
+      background-size: cover;
+   }
+   
+   .slide3 {
+      background: url("../img/selfCareMobile.png") no-repeat;
+      background-size: cover;
+   }
+   
+}
